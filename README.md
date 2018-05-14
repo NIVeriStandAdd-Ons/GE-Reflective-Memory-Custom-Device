@@ -1,3 +1,5 @@
+**NOTICE: This repository has been archived, and will no longer be maintained or accept pull requests.**
+
 ## GE Reflective Memory Custom Device ##
 
 **GE Reflective Memory Custom Device** is actually called the "RefMem PtByPt Custom Device" in code. **It is only useful for interfacing with 3rd party systems, as NI VeriStand's built in GE RefMem support is vastly superior for communicating between NI VeriStand targets**. It was originally developed to work around the fact that NI VeriStand 2010's GE reflective memory support always read/write in blocks, which had terrible performance if the addresses being written were scattered throughout the memory map. Therefore, this custom device reads and writes each address one call at a time. 
